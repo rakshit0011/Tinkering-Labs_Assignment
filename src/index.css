@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,351 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navElements{
+  display: inline;
+  float: right;
+  margin-right: 100px;
+}
+.navElements li{
+  display: inline-block;
+  margin-left: 35px;
+}
+.topSection span{
+  margin-left: 40px;
+  color: white;
+}
+.navbar{
+  padding-top: 30px;
+  height: 40vh;
+  background-image: url("https://tinkeringlab.iitr.ac.in:8080/media/about/top.jpg");
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  font-family: Roboto Condensed,sans-serif;
+  color: rgb(224, 219, 219);
+  font-size: 13px;
+}
+.vision{
+  padding: 70px;
+ 
+}
+.vision span:first-child{
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(14, 13, 13, 0.911);
+  margin-bottom: 10px;
+}
+hr{
+  border: 1px solid rgb(139, 135, 135);
+  background-color: rgb(190, 182, 182);
+  margin-bottom: 30px;
+}
+.visionText{
+  color: rgb(122, 115, 115);
+  
+  font-family: 'Fira Sans', sans-serif;
+}
+.visionText p{
+  margin-top: 20px;
+  font-size: 13px;
+  word-break: break-all;
+}
+.team{
+  padding-left: 70px;
+}
+.Images{
+  width: 20vw;
+  height: 250px;
+}
+.imageDat{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;  
+}
+.imgName{
+  font-weight: 700;
+  text-align: center;
+  font-size: 13px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.imgStatus{
+  color: rgb(130, 134, 138);
+  text-align: center;
+  font-size: 11px;
+}
+.fa{
+  background-color:whitesmoke;
+  border: 1px solid rgb(24, 18, 18);
+  padding: 5px;
+  color: rgb(17, 13, 13);
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.fa:hover{
+  background-color: rgb(17, 115, 228);
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+.contactSection{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label{
+  display: block;
+}
+input{
+  display: block;
+  padding: 5px;
+  width: 90%;
+}
+#submit{
+  background-color: rgb(19, 137, 206);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  width: fit-content;
+}
+#submit:hover{
+  cursor: pointer;
+}
+form{
+  width:max-content;
+  color: rgb(161, 169, 175);
+  font-size: 15px;
+  
+}
+label{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+textarea{
+  width: 90%;
+}
+.contactSectionEle:first-of-type{
+  background-color: rgb(255, 240, 240);
+  padding:10px 0px 10px 20px;
+  width: 30%;
+}
+.box{
+  width: 30%;
+  /* margin-left: 20px; */
+}
+
+#addressP{
+  width: 70%;
+  line-height: 2;
+  word-break: break-all;
+  color: rgb(148, 138, 138);
+}
+.box{
+  background-color: rgb(251, 243, 243);
+  padding: 10px;
+}
+#addressDiv{
+  margin-top: 50%;
+}
+#mailDiv{
+  margin-top: 80%;
+}
+.footer{
+  padding: 70px;
+  margin-top: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer img{
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+.footerDiv{
+  display: inline-flex;
+  /* display: flex; */
+  flex-direction: column;
+  width: 16%;
+}
+.footerDiv a{
+  margin-top: 20%;
+  color: rgb(144, 135, 135);
+}
+.footerDiv p{
+  font-weight: 800;
+  font-family: 'Fira Sans', sans-serif;
+}
+.footerDiv span{
+  color: rgb(144, 135, 135);
+  margin-top: 20%;
+}
+.fa-heart{
+  border: 2px solid white;
+  color: red;
+}
+.foot{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(102, 94, 94);
+}
+.ham{
+  background-color: black;
+  width: 25px;
+  height: 2px;
+  margin-top: 7px;
+  display: none;
+}
+.hamburger{
+  display: none;
+}
+.altRenderer{
+  padding: 20px;
+}
+.cont{
+  padding-left:70px;
+  margin-top:30px;
+}
+.altRenderer a{
+  background-color: rgb(255, 255, 13);
+  display: block;
+  text-align: center;
+}
+.altRenderer hr{
+  border: 1px solid grey;
+  height: 1px;
+  margin-top: 10px;
+}
+.mailbox img{
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (max-width:936px){
+  .navbar{
+    background-image: none;
+    height: 20px;
+    padding-top: 0px;
+  }
+  #hamburger{
+    display: block;
+   position: absolute;
+   top: 1px;
+   right: 0px;
+  }
+  .ham{
+    display: block;
+  }
+  .topSection{
+    display: none;
+  }
+  .vision{
+    padding: 20px;
+  }
+  .team{
+    padding-left: 20px;
+  }
+  
+}
+@media only screen and (max-width:535px){
+  .Images{
+    height: 130px;  
+  }
+  .imageDat{
+    width: 42%;
+    
+  }
+  .imgName{
+    font-size: 8px;
+    /* text-align: left; */
+  }
+  .imgStatus{
+    /* text-align: left; */
+    font-size: 8px;
+  }
+  .imageDat img{
+    width: 100%;
+  }
+  .contactSection{
+    display: block;
+  }
+  .cont{
+    padding-left: 0px;
+  }
+  .contactSectionEle:first-of-type{
+    background-color: white;
+  }
+  form{
+    margin: auto;
+    background-color: rgb(246, 243, 243);
+    margin-right: 5px;
+    padding: 5px;
+  }
+  #contP{
+    padding-left: 10px;
+  }
+  .addrbox{
+    margin-left: 10px;
+    display: inline-block;
+    width: 40%;
+    height: fit-content;
+    font-size: 8px;
+    margin-top: 0px;
+  }
+  .mailbox{
+    margin-top: 0px;
+    display: inline-block;
+    width: 40%;
+    height: fit-content;  
+    font-size: 8px;
+    
+  }
+ .mailbox img{
+   width: 15px;
+   height: 15px;
+ }
+ .footer img{
+   display: none;
+ }
+ .footer{
+   margin-top: 10px;
+   padding-left: 10px;
+   
+ }
+ .footerDiv{
+   width: 40%;
+   margin-bottom: 10%;
+ }
+ .footerDiv a{
+   font-size: 8px;
+ }
+ #footerDivp{
+   font-size: 8px;
+ }
+ .footerDiv span{
+   margin-top: 10%;
+
+ }
+ .footerDiv a{
+   margin-top: 10%;
+ }
+ .foot{
+   font-size: 8px;
+ }
+
+}
+#hamburger span{
+  position: relative;
+  right: 64vw;
+  top: 1px;
+}
+@media only screen and (min-width:535px ) and (max-width:936px){
+ .cont{
+   padding-left: 15px;
+ }
+ .box{
+   width: 30%;
+   margin-left: 5px;
+   font-size: 10px;
+ }
 }
